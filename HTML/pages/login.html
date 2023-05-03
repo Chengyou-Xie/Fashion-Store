@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.6/axios.min.js"
+            integrity="sha512-06NZg89vaTNvnFgFTqi/dJKFadQ6FIglD6Yg1HHWAUtVFFoXli9BZL4q4EO1UTKpOfCfW5ws2Z6gw49Swsilsg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+
+        <link rel="stylesheet" href="../style/style-login/style.css" />
+
+        <title>會員登入</title>
+    </head>
+    <body>
+        <nav>
+            <a href="./index.html"><img src="../images/logo.png" alt="" /></a>
+
+            <!-- <ul class="product">
+                <li><button class="btnShirt btnProductsType">上衣</button></li>
+                <li><button class="btnPants btnProductsType">褲子</button></li>
+                <li><button class="btnJacket btnProductsType">外套</button></li>
+                <li><button class="btnAccessories btnProductsType">飾品</button></li>
+            </ul> -->
+
+            <ul>
+                <li><a href="./login.html">登入</a></li>
+                <li><a href="./carts.html">購物車</a></li>
+            </ul>
+        </nav>
+
+        <section class="login">
+            <h1>會員登入</h1>
+            <hr />
+            <h2 id="ligin-form- title">登入會員後即可開始購物</h2>
+            <div id="login-form">
+                <!-- <form action="http://localhost:3030/login" id="register" method="post"> -->
+                <ul>
+                    <li><label for="account">* 帳號：</label></li>
+                    <li><label for="password">* 密碼：</label></li>
+                    <!-- <li><label for="user_name">* 姓名：</label></li>
+                        <li><label for="birthday">* 出生日：</label></li> -->
+                    <li><label for="verify">驗證碼：</label></li>
+                </ul>
+                <ul>
+                    <li>
+                        <input
+                            type="email"
+                            name="account"
+                            id="account"
+                            placeholder=" 請輸入帳號"
+                            required
+                        />
+                    </li>
+                    <li>
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            placeholder=" 請輸入密碼"
+                            required
+                        />
+                    </li>
+                    <li>
+                        <input type="text" id="varify" placeholder="（此功能尚未開通）" disabled />
+                    </li>
+                </ul>
+                <div class="button-box">
+                    <!-- <button type="reset" class="reset">重設</button> -->
+                    <p id="info">&nbsp;</p>
+                    <button type="button" class="login" id="submit">登入</button>
+                </div>
+                <!-- </form> -->
+
+                <a href="./register.html" id="toRegister">尚未註冊</a>
+            </div>
+        </section>
+
+        <footer>
+            <div class="top">
+                <a href="">服務條款</a><span>|</span> <a href="">隱私權政策</a><span>|</span>
+                <a href="">常見問題</a><span>|</span><a href="">合作夥伴</a><span>|</span
+                ><a href="">下載App</a>
+            </div>
+            <div class="icon">
+                <a href=""><img src="../images/facebook.svg" alt="FB" /></a>
+                <a href=""><img src="../images/instagram.svg" alt="IG" /></a>
+                <a href=""><img src="../images/youtube.svg" alt="YT" /></a>
+                <a href=""><img src="../images/twitter.svg" alt="twitter" /></a>
+            </div>
+            <div class="contact">
+                <i class="fa-solid fa-envelope"></i>
+                <span>客服信箱:jim0228xie@gmail.com</span>&nbsp
+                <i class="fa-solid fa-phone"></i>
+                <span>客服專線:0800-092-000</span>&nbsp <i class="fa-solid fa-clock"></i
+                ><span></span>
+                <span>服務時間:12:00pm-12:01pm</span>
+                <br />
+                <i class="fa-solid fa-location-dot"></i
+                ><span>臺中市南屯區公益路二段51號18樓 (國泰人壽公益大樓內)</span>
+            </div>
+            <div class="copyRight">
+                <span>&copy;2022 訂GOGI（訂孤支）Corporation, ALL RIGHTS RESERVED.</span>
+            </div>
+        </footer>
+
+        <script src="../js/login.js"></script>
+    </body>
+</html>

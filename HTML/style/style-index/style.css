@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  letter-spacing: 3px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html nav,
+body nav {
+  height: 100px;
+  padding: 10px 40px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html nav img,
+body nav img {
+  height: 80px;
+}
+html nav ul,
+body nav ul {
+  display: inline-block;
+}
+html nav ul li,
+body nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+html nav ul li button,
+body nav ul li button {
+  margin: 0 30px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 6px 15px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+html nav ul li button:hover,
+body nav ul li button:hover {
+  border-bottom: 1px solid gray;
+  color: gray;
+}
+html nav ul li a,
+body nav ul li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  margin-left: 12px;
+  cursor: pointer;
+}
+html nav ul.product,
+body nav ul.product {
+  position: absolute;
+  top: 33px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+html .container,
+body .container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 36px 10%;
+}
+html .container .product,
+body .container .product {
+  margin-right: 24px;
+  margin-bottom: 60px;
+  width: calc((100% - 48px) / 3);
+  height: 650px;
+  overflow: hidden;
+}
+html .container .product:nth-child(3n),
+body .container .product:nth-child(3n) {
+  margin-right: 0;
+}
+html .container .product img,
+body .container .product img {
+  width: 100%;
+  height: 75%;
+  margin-bottom: 36px;
+}
+html .container .product img:hover,
+body .container .product img:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-out;
+}
+html .container .product h3,
+html .container .product h5,
+body .container .product h3,
+body .container .product h5 {
+  text-align: center;
+  margin-bottom: 6px;
+}
+html .container .product .cartContainer,
+body .container .product .cartContainer {
+  text-align: center;
+}
+html .container .product .cartContainer select,
+html .container .product .cartContainer button,
+body .container .product .cartContainer select,
+body .container .product .cartContainer button {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 3px 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  letter-spacing: 3px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html h1,
+body h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: 40px;
+}
+html .type,
+body .type {
+  padding: 0 100px;
+}
+html .type .nav button,
+body .type .nav button {
+  font-size: 1.25rem;
+  padding: 16px 24px;
+}
+html .type .tab-content #menu1,
+body .type .tab-content #menu1 {
+  margin-top: 30px;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+html .type .tab-content #menu1 form,
+body .type .tab-content #menu1 form {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+html .type .tab-content #menu1 form .formContainer,
+body .type .tab-content #menu1 form .formContainer {
+  width: 60%;
+}
+html .type .tab-content #menu1 form .formContainer label,
+body .type .tab-content #menu1 form .formContainer label {
+  margin-bottom: 70px;
+  font-size: 2rem;
+}
+html .type .tab-content #menu1 form .formContainer input,
+html .type .tab-content #menu1 form .formContainer select,
+body .type .tab-content #menu1 form .formContainer input,
+body .type .tab-content #menu1 form .formContainer select {
+  height: 30px;
+  border-radius: 6px;
+}
+html .type .tab-content #menu1 form .formContainer input[type=text],
+html .type .tab-content #menu1 form .formContainer input[type=number],
+html .type .tab-content #menu1 form .formContainer select,
+body .type .tab-content #menu1 form .formContainer input[type=text],
+body .type .tab-content #menu1 form .formContainer input[type=number],
+body .type .tab-content #menu1 form .formContainer select {
+  border: 1px solid gray;
+}
+html .type .tab-content #menu1 form .formContainer button,
+body .type .tab-content #menu1 form .formContainer button {
+  border: 1px solid gray;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 1.25rem;
+  margin-left: 5%;
+}
+html .type .tab-content #menu1 form img,
+body .type .tab-content #menu1 form img {
+  width: 40%;
+  border: 1px dashed gray;
+  border-radius: 20px;
+}
+html .type .tab-content #menu2 #editProduct,
+body .type .tab-content #menu2 #editProduct {
+  padding: 0;
+}
+html .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container,
+body .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+html .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container .editProductContainer,
+body .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container .editProductContainer {
+  margin-right: 24px;
+  margin-bottom: 24px;
+  width: calc((100% - 96px) / 5);
+}
+html .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container .editProductContainer:nth-child(5n),
+body .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container .editProductContainer:nth-child(5n) {
+  margin-right: 0;
+}
+html .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container .editProductContainer img,
+body .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container .editProductContainer img {
+  width: 100%;
+  height: 60%;
+}
+html .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container .editProductContainer form input,
+body .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container .editProductContainer form input {
+  margin-top: 12px;
+}
+html .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container .editProductContainer form .formContainer label,
+html .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container .editProductContainer form .formContainer input,
+body .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container .editProductContainer form .formContainer label,
+body .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container .editProductContainer form .formContainer input {
+  margin-top: 10px;
+  padding: 3px 6px;
+  border-radius: 6px;
+}
+html .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container .editProductContainer form .formContainer .btnContainer,
+body .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container .editProductContainer form .formContainer .btnContainer {
+  text-align: center;
+}
+html .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container .editProductContainer form .formContainer .btnContainer button,
+body .type .tab-content #menu2 #editProduct .tab-content .tab-pane .container .editProductContainer form .formContainer .btnContainer button {
+  width: 48%;
+  margin-top: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+}/*# sourceMappingURL=style.css.map */

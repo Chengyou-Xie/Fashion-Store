@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  letter-spacing: 3px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html nav,
+body nav {
+  height: 100px;
+  padding: 10px 40px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+html nav img,
+body nav img {
+  height: 80px;
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+html nav ul,
+body nav ul {
+  display: inline-block;
+}
+html nav ul li,
+body nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+html nav ul li button,
+body nav ul li button {
+  margin: 0 30px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 6px 15px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+html nav ul li button:hover,
+body nav ul li button:hover {
+  border-bottom: 1px solid gray;
+  color: gray;
+}
+html nav ul li a,
+body nav ul li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  margin-left: 12px;
+}
+html #cartsContainer,
+body #cartsContainer {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 1rem 1em;
+}
+html #cartsContainer th,
+body #cartsContainer th {
+  font-size: 2rem;
+  height: 80px;
+}
+html #cartsContainer tr.item,
+body #cartsContainer tr.item {
+  text-align: center;
+  transition: all 0.25s ease;
+  border: 3px solid gray;
+}
+html #cartsContainer tr.item td,
+body #cartsContainer tr.item td {
+  width: 20%;
+  font-size: 1.5rem;
+}
+html #cartsContainer tr.item td img,
+body #cartsContainer tr.item td img {
+  width: 60%;
+}
+html #cartsContainer tr.item td span.add,
+html #cartsContainer tr.item td span.sub,
+body #cartsContainer tr.item td span.add,
+body #cartsContainer tr.item td span.sub {
+  margin: 0 12px;
+  font-weight: 600;
+  font-size: 2rem;
+  display: inline-block;
+  width: 60px;
+  background-color: rgb(204, 204, 204);
+  border-radius: 12px;
+  cursor: pointer;
+}
+html #cartsContainer tr.item:hover,
+body #cartsContainer tr.item:hover {
+  background-color: rgb(245, 245, 245);
+}/*# sourceMappingURL=style.css.map */

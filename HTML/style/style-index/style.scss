@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 3px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+html,
+body {
+    nav {
+        height: 100px;
+        padding: 10px 40px;
+        background-color: antiquewhite;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            height: 80px;
+        }
+        ul {
+            display: inline-block;
+            li {
+                list-style-type: none;
+                display: inline-block;
+
+                button {
+                    margin: 0 30px;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    padding: 6px 15px;
+                    border: none;
+                    background-color: transparent;
+                    cursor: pointer;
+                    &:hover {
+                        border-bottom: 1px solid gray;
+                        color: gray;
+                    }
+                }
+                a {
+                    text-decoration: none;
+                    font-size: 1.25rem;
+                    margin-left: 12px;
+                    cursor: pointer;
+                }
+            }
+        }
+        ul.product {
+            position: absolute;
+            top: 33px;
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 36px 10%;
+        .product {
+            // border: 3px solid black;
+            margin-right: 24px;
+            margin-bottom: 60px;
+            width: calc((100% - 48px) / 3);
+            height: 650px;
+
+            overflow: hidden;
+            &:nth-child(3n) {
+                margin-right: 0;
+            }
+
+            img {
+                width: 100%;
+                height: 75%;
+                margin-bottom: 36px;
+                &:hover {
+                    transform: scale(1.1);
+                    transition: all 0.2s ease-out;
+                }
+            }
+            h3,
+            h5 {
+                text-align: center;
+                margin-bottom: 6px;
+            }
+            .cartContainer {
+                text-align: center;
+                select,
+                button {
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                    padding: 3px 5px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
